@@ -1,17 +1,14 @@
-# SlideShow Gallery
+# SlideShow Gallery PLugin
 
-## Plugin Detail
 - Contributors: https://profiles.wordpress.org/sajidansari65
 - Requires at least: 3.0.1
 - Tested up to: 6.2.2
 - License: GPLv2 or later
 - License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-
 ## Description
 
 This plugin is used for creating gallery.
-
 ## Installation
 
 This section describes how to install the plugin and get it working.
@@ -25,7 +22,6 @@ e.g.
 ## Demo Link
 Password Protected Page:- ([Demo Page](https://iamsajidansari.com/slideshow-gallery-demo/))
 password:- ```test@123```
-
 
 ## 3rd Party Libraries used
 BootStrap for Backend:- ([BootStrap](https://getbootstrap.com/))
