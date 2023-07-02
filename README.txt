@@ -19,3 +19,12 @@ e.g.
 1. Upload `slideshow-plugin.php` to the `/wp-content/plugins/` directory
 2. Activate the plugin through the 'Plugins' menu in WordPress
 3. Place `<?php echo do_shortcode('[MSA_Slideshow id=1]'); ?>` in your templates or `[MSA_Slideshow id=1]` in backend WYSIWYG.
+
+== Demo Link ==
+Password Protected Page:- https://iamsajidansari.com/slideshow-gallery-demo/
+password:- test@123
+
+
+== 3rd Party Libraries used ==
+BootStrap for Backend:- https://getbootstrap.com/
+Owl Carousel for slider:- https://owlcarousel2.github.io/OwlCarousel2/
