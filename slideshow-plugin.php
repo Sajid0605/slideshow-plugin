@@ -114,11 +114,11 @@ if ( ! class_exists( 'MSA_SlideShow_Gallery' ) ) {
 			
 		public function msa_image_upload($post) {
 			wp_enqueue_script('jquery');
-			wp_enqueue_script('msa-bootstrap', MSA_PLUGIN_URL . 'admin/js/bootstrap.min.js');
+			wp_enqueue_script('msa-bootstrap', MSA_PLUGIN_URL . 'lib/js/bootstrap.min.js');
 			wp_enqueue_script('media-upload');
 			wp_enqueue_script('slideshow-plugin-admin', MSA_PLUGIN_URL . 'admin/js/slideshow-plugin-admin.js', array('jquery'));
 			wp_enqueue_style('msa-slideshow-uploader', MSA_PLUGIN_URL . 'admin/css/slideshow-plugin-admin.css');
-			wp_enqueue_style('msa-bootstrap', MSA_PLUGIN_URL . 'admin/css/bootstrap.min.css');
+			wp_enqueue_style('msa-bootstrap', MSA_PLUGIN_URL . 'lib/css/bootstrap.min.css');
 			wp_enqueue_media();
 			
 			require_once('admin/partials/slideshow-plugin-admin-display.php');

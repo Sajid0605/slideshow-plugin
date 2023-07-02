@@ -10,12 +10,12 @@ function msa_slideshow_gallery_shortcode($post_id) {
 		
     //js
 	wp_enqueue_script('jquery');    
-    wp_enqueue_script( 'owl-carousel', MSA_PLUGIN_URL .'public/js/owl.carousel.min.js', array(), '2.3.4', true );		
+    wp_enqueue_script( 'owl-carousel', MSA_PLUGIN_URL .'lib/js/owl.carousel.min.js', array(), '2.3.4', true );		
     wp_enqueue_script( 'slideshow-public-admin', MSA_PLUGIN_URL .'public/js/slideshow-plugin-public.js', array(), '1.0.0', true );		
 
     //css
-    wp_enqueue_style( 'owl-carousel', MSA_PLUGIN_URL .'/public/css/owl.carousel.min.css', true, '2.3.4');
-    wp_enqueue_style( 'owl-carousel-theme', MSA_PLUGIN_URL .'/public/css/owl.theme.default.min.css', true, '2.3.4');
+    wp_enqueue_style( 'owl-carousel', MSA_PLUGIN_URL .'lib/css/owl.carousel.min.css', true, '2.3.4');
+    wp_enqueue_style( 'owl-carousel-theme', MSA_PLUGIN_URL .'lib/css/owl.theme.default.min.css', true, '2.3.4');
     wp_enqueue_style( 'slideshow-public-admin', MSA_PLUGIN_URL .'/public/css/slideshow-plugin-public.css', true, '2.3.4');
     
 	
