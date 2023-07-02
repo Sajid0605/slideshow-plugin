@@ -1,11 +1,11 @@
 # SlideShow Gallery
 
 ## Plugin Detail
-Contributors: https://profiles.wordpress.org/sajidansari65
-Requires at least: 3.0.1
-Tested up to: 6.2.2
-License: GPLv2 or later
-License URI: http://www.gnu.org/licenses/gpl-2.0.html
+- Contributors: https://profiles.wordpress.org/sajidansari65
+- Requires at least: 3.0.1
+- Tested up to: 6.2.2
+- License: GPLv2 or later
+- License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 
 ## Description
@@ -23,10 +23,8 @@ e.g.
 3. Place `<?php echo do_shortcode('[MSA_Slideshow id=1]'); ?>` in your templates or `[MSA_Slideshow id=1]` in backend WYSIWYG.
 
 ## Demo Link
-```
 Password Protected Page:- ([Demo Page](https://iamsajidansari.com/slideshow-gallery-demo/))
-password:- test@123
-```
+password:- ```test@123```
 
 
 ## 3rd Party Libraries used
