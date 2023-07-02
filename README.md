@@ -19,9 +19,9 @@ e.g.
 3. Place `<?php echo do_shortcode('[MSA_Slideshow id=1]'); ?>` in your templates or `[MSA_Slideshow id=1]` in backend WYSIWYG.
 
 ## Demo Link
-Password Protected Page:- ([Demo Page](https://iamsajidansari.com/slideshow-gallery-demo/))
-password:- ```test@123```
+- Password Protected Page:- ([Demo Page](https://iamsajidansari.com/slideshow-gallery-demo/))
+- Password:- ```test@123```
 
 ## 3rd Party Libraries used
-BootStrap for Backend:- ([BootStrap](https://getbootstrap.com/))
-Owl Carousel for slider:- ([Ow Carousel](https://owlcarousel2.github.io/OwlCarousel2/))
+- BootStrap for Backend:- ([BootStrap](https://getbootstrap.com/))
+- Owl Carousel for slider:- ([Ow Carousel](https://owlcarousel2.github.io/OwlCarousel2/))
