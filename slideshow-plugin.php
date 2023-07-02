@@ -2,7 +2,7 @@
 if ( ! defined( 'ABSPATH' ) ) exit; // Exit if accessed directly
 /**
  * @wordpress-plugin
- * Plugin Name:       Slideshow Plugin
+ * Plugin Name:       MSA Slideshow Plugin
  * Plugin URI:        https://iamsajidansari.com
  * Description:       Plugin for slideshow on frontend
  * Version:           1.0.0
@@ -14,9 +14,9 @@ if ( ! defined( 'ABSPATH' ) ) exit; // Exit if accessed directly
  * Domain Path:       /languages
  */
 
-if ( ! class_exists( 'SlideShow_Gallery' ) ) {
+if ( ! class_exists( 'MSA_SlideShow_Gallery' ) ) {
 
-	class SlideShow_Gallery {
+	class MSA_SlideShow_Gallery {
 		public function __construct() {
 			$this->_constants();
 			$this->_hooks();
@@ -271,6 +271,6 @@ if ( ! class_exists( 'SlideShow_Gallery' ) ) {
 			}
 		}// end save setting
 	}
-	$slideshow_gallery_object = new SlideShow_Gallery();
+	$slideshow_gallery_object = new MSA_SlideShow_Gallery();
 	require_once('admin/partials/slideshow-gallery-shortcode.php');
 }
