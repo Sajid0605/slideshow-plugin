@@ -1,0 +1,8 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+
+.owl-carousel div.owl-item img {
+    height: 500px;
+}
